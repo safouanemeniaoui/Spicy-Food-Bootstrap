@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Nothing+You+Could+Do&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Spicy Food</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark z-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img class="w-75" src="images/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler shadow-none border border-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-white-50 border border-0"></i
+          ><span class="text-capitalize text-white-50 ms-2">menu</span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+          <div class="navbar-nav text-capitalize">
+            <a
+              class="nav-link active text-white-50 pe-5 pt-lg-4 pb-lg-4"
+              href="#"
+              >home</a
+            >
+            <a class="nav-link text-white-50 pe-5 pt-lg-4 pb-lg-4" href="#about"
+              >about</a
+            >
+            <a
+              class="nav-link text-white-50 pe-5 pt-lg-4 pb-lg-4"
+              href="#services"
+              >services</a
+            >
+            <a class="nav-link text-white-50 pe-5 pt-lg-4 pb-lg-4" href="#menu"
+              >menu</a
+            >
+
+            <a
+              class="nav-link text-white-50 pe-5 pt-lg-4 pb-lg-4"
+              href="#pricing"
+              >pricing</a
+            >
+            <a
+              class="nav-link text-white-50 pe-5 pt-lg-4 pb-lg-4"
+              href="#statistics"
+              >statistics</a
+            >
+
+            <a class="nav-link text-white-50 pt-lg-4 pb-lg-4" href="#order"
+              >order</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="landing position-relative">
+      <div
+        class="overlay position-absolute bottom-0 start-0 w-100 h-100 bg-dark opacity-75"
+      ></div>
+
+      <div
+        id="landing-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="7000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active pt-5">
+            <div class="row align-items-md-center justify-content-md-end">
+              <div class="col-md-4 text-center text-lg-end me-5">
+                <p class="sp-title mb-0 text-capitalize fs-3">delicious</p>
+                <h2 class="text-white main-title mb-4 text-capitalize p-2">
+                  fiery eggplant delight
+                </h2>
+                <p class="text-white-50 mb-3 mb-lg-5 p-2">
+                  Indulge in the explosive heat of our Fiery Eggplant Delight,
+                  where succulent eggplant meets a symphony of bold spices that
+                  will ignite your taste buds in a thrilling culinary adventure.
+                </p>
+                <a
+                  href="#"
+                  class="main-link-s active text-decoration-none text-capitalize p-3 d-inline-block m-1"
+                  >order now</a
+                >
+                <a
+                  href="#"
+                  class="main-link-s text-decoration-none text-capitalize p-3 text-white border border-white d-inline-block m-1"
+                  >view menu</a
+                >
+              </div>
+              <div class="col-md-6 mt-sm-4 mt-md-0 p-4">
+                <img
+                  src="images/lan1.png"
+                  class="img-fluid d-block w-75 mx-auto mx-md-0"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div class="row align-items-md-center justify-content-md-end">
+              <div class="col-md-4 text-center text-lg-end me-5">
+                <p class="sp-title mb-0 text-capitalize fs-3">tasty</p>
+                <h2 class="text-white main-title mb-4 text-capitalize p-2">
+                  spicy seafood symphony
+                </h2>
+                <p class="text-white-50 mb-3 mb-lg-5 p-2">
+                  Savor the symphony of flavors in our Spicy Seafood dish,
+                  featuring a tantalizing blend of fresh fish and vibrant
+                  vegetables, all harmonized by a velvety white sauce made from
+                  wholesome cauliflower, creating a dish that's as indulgent as
+                  it is spicy.
+                </p>
+                <a
+                  href="#"
+                  class="main-link-s active text-decoration-none text-capitalize p-3 d-inline-block m-1"
+                  >order now</a
+                >
+                <a
+                  href="#"
+                  class="main-link-s text-decoration-none text-capitalize p-3 text-white border border-white d-inline-block m-1"
+                  >view menu</a
+                >
+              </div>
+              <div class="col-md-6 mt-sm-4 mt-md-0 p-4">
+                <img
+                  src="images/lan2.png"
+                  class="img-fluid d-block w-75 mx-auto mx-md-0"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div class="row align-items-md-center justify-content-md-end">
+              <div class="col-md-4 text-center text-lg-end me-5">
+                <p class="sp-title mb-0 text-capitalize fs-3">flavorful</p>
+                <h2 class="text-white main-title mb-4 text-capitalize p-2">
+                  zesty lentil fusion bowl
+                </h2>
+                <p class="text-white-50 mb-3 mb-lg-5 p-2">
+                  Embark on a culinary journey with our Zesty Lentil Fusion
+                  Bowl, where hearty lentils mingle with a colorful array of
+                  vegetables, creating a vibrant and spicy medley that's as
+                  nutritious as it is flavorful.
+                </p>
+                <a
+                  href="#"
+                  class="main-link-s active text-decoration-none text-capitalize p-3 d-inline-block m-1"
+                  >order now</a
+                >
+                <a
+                  href="#"
+                  class="main-link-s text-decoration-none text-capitalize p-3 text-white border border-white d-inline-block m-1"
+                  >view menu</a
+                >
+              </div>
+              <div class="col-md-6 mt-sm-4 mt-md-0 p-4">
+                <img
+                  src="images/lan3.png"
+                  class="img-fluid d-block w-75 mx-auto mx-md-0"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-info" id="about">
+      <div class="row g-0">
+        <div
+          class="col-md-8 d-flex justify-content-md-center flex-wrap bg-dark pt-5"
+        >
+          <div
+            class="col-12 col-md-4 col-lg-3 d-flex p-4 pt-5 justify-content-center"
+          >
+            <i class="fa-solid fa-phone icon-cnt-in"></i>
+            <div class="ms-2 w-100">
+              <h4 class="text-white fs-5">000 (123) 456 7890</h4>
+              <p class="text-white-50">
+                A small river known as Sacramento River.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-4 col-lg-3 d-flex p-4 pt-5 justify-content-center"
+          >
+            <i class="fa-solid fa-location-crosshairs icon-cnt-in"></i>
+            <div class="ms-2 w-100">
+              <h4 class="text-white fs-5">198 East 25th Street</h4>
+              <p class="text-white-50">Suite 145 California CA 90210</p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-4 col-lg-3 d-flex p-4 pt-5 justify-content-center"
+          >
+            <i class="fa-regular fa-clock icon-cnt-in"></i>
+            <div class="ms-2 w-100">
+              <h4 class="text-white fs-5">Open Monday-Friday</h4>
+              <p class="text-white-50">8:00am - 9:00pm</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-4 d-flex justify-content-center justify-content-md-start p-4 pt-5 contact-info-social fs-4"
+        >
+          <a href="#"
+            ><i class="fa-brands fa-x-twitter me-3 text-white pt-5"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-facebook-f me-3 text-white pt-5"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-instagram text-white pt-5"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="welcome row g-0">
+      <div class="col-md-6 overflow-hidden position-relative"></div>
+      <div class="p-4 col-md-6 p-md-5">
+        <h2 class="text-white text-uppercase fs-3 mb-4 mt-5">
+          welcome to <span>spicy food</span> restaurant
+        </h2>
+        <p class="text-white-50 fs-6 lh-lg">
+          Step into a culinary haven at
+          <span class="text-capitalize text-white fw-bold">spicy food</span> ,
+          where gastronomic wonders come to life. Our mission is to create an
+          unforgettable dining experience, blending passion, quality, and
+          innovation. From farm-fresh ingredients to artisanal craftsmanship,
+          every detail reflects our dedication to delighting your senses.
+          Welcome to a world where flavors dance and memories are made.
+        </p>
+      </div>
+    </div>
+    <div class="services min-vh-100" id="services">
+      <div class="container">
+        <div class="row section-title text-center w-50 ms-auto me-auto g-0">
+          <h2 class="text-uppercase mb-4 position-relative">our services</h2>
+          <p class="p-3">
+            Explore our comprehensive services, delivering exceptional
+            experiences from delectable dishes to swift delivery.
+          </p>
+        </div>
+        <div class="row mt-5 service-boxes justify-content-center">
+          <div
+            class="col-md-3 mt-5 text-center d-flex flex-column align-items-center gap-4 mb-4"
+          >
+            <div class="position-relative border border-dark p-2 im-box">
+              <img
+                src="images/icon1.png"
+                class="position-relative z-3 w-100"
+                alt=""
+              />
+            </div>
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p>
+              Savor the goodness of locally-sourced, fresh ingredients for a
+              truly nourishing dining experience.
+            </p>
+          </div>
+          <div
+            class="col-md-3 mt-5 text-center d-flex flex-column align-items-center gap-4"
+          >
+            <div class="position-relative border border-dark p-2 im-box">
+              <img
+                src="images/icon2.png"
+                class="position-relative z-3 w-100"
+                alt=""
+              />
+            </div>
+            <h3 class="text-uppercase fs-5 mt-3">original recipes</h3>
+            <p>
+              Discover culinary innovation with our exclusive, original and
+              flavorful recipes.
+            </p>
+          </div>
+          <div
+            class="col-md-3 mt-5 text-center d-flex flex-column align-items-center gap-4"
+          >
+            <div class="position-relative border border-dark p-2 im-box">
+              <img
+                src="images/icon3.png"
+                class="position-relative z-3 w-100"
+                alt=""
+              />
+            </div>
+            <h3 class="text-uppercase fs-5 mt-3">fastest delivery</h3>
+            <p>
+              Experience the speed of satisfaction with our lightning-fast
+              delivery service.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu min-vh-100" id="menu">
+      <div
+        class="row section-title position-relative text-center w-50 ms-auto me-auto g-0"
+      >
+        <h2 class="text-uppercase p-2 mb-4 text-white">our menu</h2>
+        <div
+          class="position-absolute d-flex justify-content-center align-items-center gap-2 pe-2 ps-2"
+        >
+          <span></span>
+          <span class="center"></span>
+          <span></span>
+        </div>
+        <p class="text-white-50 p-3">
+          Dive into a world of culinary delights with our diverse menu at, where
+          each dish is a masterpiece of taste and quality.
+        </p>
+      </div>
+      <div class="row mt-5 text-white g-0">
+        <div class="menu-box col-md-6 col-lg-4 row g-0 text-left d-flex">
+          <div
+            class="col-12 col-md-6 box-im overflow-hidden position-relative"
+          ></div>
+          <div class="col-12 col-md-6 p-3">
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p class="text-white-50">
+              Savor the goodness of vibrant, nutrient-packed meals and treat
+              your body to the joy of wholesome, delicious nourishment.
+            </p>
+            <span>$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize p-2 text-white border d-inline-block m-1"
+              >order</a
+            >
+          </div>
+        </div>
+        <div class="menu-box col-md-6 col-lg-4 row g-0 text-left d-flex">
+          <div
+            class="col-12 col-md-6 box-im overflow-hidden position-relative"
+          ></div>
+          <div class="col-12 col-md-6 p-3">
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p class="text-white-50">
+              Savor the goodness of vibrant, nutrient-packed meals and treat
+              your body to the joy of wholesome, delicious nourishment.
+            </p>
+            <span>$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize p-2 text-white border d-inline-block m-1"
+              >order</a
+            >
+          </div>
+        </div>
+        <div class="menu-box col-md-6 col-lg-4 row g-0 text-left d-flex">
+          <div
+            class="col-12 col-md-6 box-im overflow-hidden position-relative"
+          ></div>
+          <div class="col-12 col-md-6 p-3">
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p class="text-white-50">
+              Savor the goodness of vibrant, nutrient-packed meals and treat
+              your body to the joy of wholesome, delicious nourishment.
+            </p>
+            <span>$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize p-2 text-white border d-inline-block m-1"
+              >order</a
+            >
+          </div>
+        </div>
+        <div class="menu-box col-md-6 col-lg-4 row g-0 text-left d-flex">
+          <div
+            class="col-12 col-md-6 box-im overflow-hidden position-relative"
+          ></div>
+          <div class="col-12 col-md-6 p-3">
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p class="text-white-50">
+              Savor the goodness of vibrant, nutrient-packed meals and treat
+              your body to the joy of wholesome, delicious nourishment.
+            </p>
+            <span>$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize p-2 text-white border d-inline-block m-1"
+              >order</a
+            >
+          </div>
+        </div>
+        <div class="menu-box col-md-6 col-lg-4 row g-0 text-left d-flex">
+          <div
+            class="col-12 col-md-6 box-im overflow-hidden position-relative"
+          ></div>
+          <div class="col-12 col-md-6 p-3">
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p class="text-white-50">
+              Savor the goodness of vibrant, nutrient-packed meals and treat
+              your body to the joy of wholesome, delicious nourishment.
+            </p>
+            <span>$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize p-2 text-white border d-inline-block m-1"
+              >order</a
+            >
+          </div>
+        </div>
+        <div class="menu-box col-md-6 col-lg-4 row g-0 text-left d-flex">
+          <div
+            class="col-12 col-md-6 box-im overflow-hidden position-relative"
+          ></div>
+          <div class="col-12 col-md-6 p-3">
+            <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+            <p class="text-white-50">
+              Savor the goodness of vibrant, nutrient-packed meals and treat
+              your body to the joy of wholesome, delicious nourishment.
+            </p>
+            <span>$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize p-2 text-white border d-inline-block m-1"
+              >order</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-pricing min-vh-100" id="pricing">
+      <div class="container">
+        <div
+          class="row section-title position-relative text-center w-50 ms-auto me-auto g-0"
+        >
+          <h2 class="text-uppercase p-2 mb-4 text-white">pricing</h2>
+          <div
+            class="position-absolute d-flex justify-content-center align-items-center gap-2 pe-2 ps-2"
+          >
+            <span></span>
+            <span class="center"></span>
+            <span></span>
+          </div>
+          <p class="text-white-50 p-3">
+            Explore our transparent pricing for a delightful dining experience
+            that fits your budget.
+          </p>
+        </div>
+        <div class="row mt-5 text-white g-0">
+          <div
+            class="menu-pricing-box col-md-6 text-center text-md-start d-flex flex-column flex-md-row align-items-center"
+          >
+            <div
+              class="col-4 col-md-3 box-im d-flex align-items-start justify-content-center p-md-3 mt-3"
+            >
+              <img
+                src="images/menu2.jpg"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-md-9 p-md-3">
+              <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+              <span>$2.90</span>
+              <p class="text-white-50 mt-1">
+                Savor the goodness of vibrant, nutrient-packed meals and treat
+                your body to the joy of wholesome, delicious nourishment.
+              </p>
+            </div>
+          </div>
+          <div
+            class="menu-pricing-box col-md-6 text-center text-md-start d-flex flex-column flex-md-row align-items-center"
+          >
+            <div
+              class="col-4 col-md-3 box-im d-flex align-items-start justify-content-center p-md-3 mt-3"
+            >
+              <img
+                src="images/menu4.jpg"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-md-9 p-md-3">
+              <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+              <span>$2.90</span>
+              <p class="text-white-50 mt-1">
+                Savor the goodness of vibrant, nutrient-packed meals and treat
+                your body to the joy of wholesome, delicious nourishment.
+              </p>
+            </div>
+          </div>
+          <div
+            class="menu-pricing-box col-md-6 text-center text-md-start d-flex flex-column flex-md-row align-items-center"
+          >
+            <div
+              class="col-4 col-md-3 box-im d-flex align-items-start justify-content-center p-md-3 mt-3"
+            >
+              <img
+                src="images/menu3.png"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-md-9 p-md-3">
+              <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+              <span>$2.90</span>
+              <p class="text-white-50 mt-1">
+                Savor the goodness of vibrant, nutrient-packed meals and treat
+                your body to the joy of wholesome, delicious nourishment.
+              </p>
+            </div>
+          </div>
+          <div
+            class="menu-pricing-box col-md-6 text-center text-md-start d-flex flex-column flex-md-row align-items-center"
+          >
+            <div
+              class="col-4 col-md-3 box-im d-flex align-items-start justify-content-center p-md-3 mt-3"
+            >
+              <img
+                src="images/menu5.jpg"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-md-9 p-md-3">
+              <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+              <span>$2.90</span>
+              <p class="text-white-50 mt-1">
+                Savor the goodness of vibrant, nutrient-packed meals and treat
+                your body to the joy of wholesome, delicious nourishment.
+              </p>
+            </div>
+          </div>
+          <div
+            class="menu-pricing-box col-md-6 text-center text-md-start d-flex flex-column flex-md-row align-items-center"
+          >
+            <div
+              class="col-4 col-md-3 box-im d-flex align-items-start justify-content-center p-md-3 mt-3"
+            >
+              <img
+                src="images/menu6.jpg"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-md-9 p-md-3">
+              <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+              <span>$2.90</span>
+              <p class="text-white-50 mt-1">
+                Savor the goodness of vibrant, nutrient-packed meals and treat
+                your body to the joy of wholesome, delicious nourishment.
+              </p>
+            </div>
+          </div>
+          <div
+            class="menu-pricing-box col-md-6 text-center text-md-start d-flex flex-column flex-md-row align-items-center"
+          >
+            <div
+              class="col-4 col-md-3 box-im d-flex align-items-start justify-content-center p-md-3 mt-3"
+            >
+              <img
+                src="images/menu1.jpg"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-md-9 p-md-3">
+              <h3 class="text-uppercase fs-5 mt-3">healthy food</h3>
+              <span>$2.90</span>
+              <p class="text-white-50 mt-1">
+                Savor the goodness of vibrant, nutrient-packed meals and treat
+                your body to the joy of wholesome, delicious nourishment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery row g-0" id="statistics">
+      <div class="col-ms-6 col-lg-3 position-relative">
+        <img src="images/s1.jpg" class="img-fluid" alt="" />
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="col-ms-6 col-lg-3 position-relative">
+        <img src="images/s2.jpg" class="img-fluid" alt="" />
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="col-ms-6 col-lg-3 position-relative">
+        <img src="images/s3.jpg" class="img-fluid" alt="" />
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="col-ms-6 col-lg-3 position-relative">
+        <img src="images/s4.jpg" class="img-fluid" alt="" />
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+    </div>
+    <div class="statistics pt-md-4">
+      <div class="container">
+        <div class="row g-0 mt-5 justify-content-center gap-3">
+          <div
+            class="statistics-boxe col-md-2 mt-5 text-center d-flex flex-column align-items-center gap-2 mb-4"
+          >
+            <div class="position-relative p-3">
+              <i class="position-relative z-2 fa-solid fa-bowl-food"></i>
+            </div>
+            <h3 class="text-uppercase fs-5 mt-4 mb-0">90</h3>
+            <p class="text-capitalize mt-0 mb-0 text-white-50">spicy dish</p>
+          </div>
+          <div
+            class="statistics-boxe col-md-2 mt-5 text-center d-flex flex-column align-items-center gap-2 mb-4"
+          >
+            <div class="position-relative p-3">
+              <i class="position-relative z-2 fa-solid fa-award"></i>
+            </div>
+            <h3 class="text-uppercase fs-5 mt-4 mb-0">125</h3>
+            <p class="text-capitalize mt-0 mb-0 text-white-50">
+              number of awards
+            </p>
+          </div>
+          <div
+            class="statistics-boxe col-md-2 mt-5 text-center d-flex flex-column align-items-center gap-2 mb-4"
+          >
+            <div class="position-relative p-3">
+              <i class="position-relative z-2 fa-solid fa-face-laugh-beam"></i>
+            </div>
+            <h3 class="text-uppercase fs-5 mt-4 mb-0">9580</h3>
+            <p class="text-capitalize mt-0 mb-0 text-white-50">
+              happy customer
+            </p>
+          </div>
+          <div
+            class="statistics-boxe col-md-2 mt-5 text-center d-flex flex-column align-items-center gap-2 mb-4"
+          >
+            <div class="position-relative p-3">
+              <i class="position-relative z-2 fa-solid fa-hot-tub-person"></i>
+            </div>
+            <h3 class="text-uppercase fs-5 mt-4 mb-0">250</h3>
+            <p class="text-capitalize mt-0 mb-0 text-white-50">our staff</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="order row g-0 min-vh-100" id="order">
+      <div
+        class="im-order col-12 col-md-4 overflow-hidden position-relative"
+      ></div>
+      <div class="order-content col-12 col-md-8 p-5">
+        <div class="order-classes mb-5 text-center">
+          <a
+            href="#order"
+            class="main-link-s active text-decoration-none text-capitalize px-4 py-2 d-inline-block m-1"
+            >seafood</a
+          >
+          <a
+            href="#order"
+            class="main-link-s text-decoration-none text-capitalize px-4 py-2 d-inline-block m-1"
+            >pasta</a
+          >
+          <a
+            href="#order"
+            class="main-link-s text-decoration-none text-capitalize px-4 py-2 d-inline-block m-1"
+            >rice</a
+          >
+          <a
+            href="#order"
+            class="main-link-s text-decoration-none text-capitalize px-4 py-2 d-inline-block m-1"
+            >drinks</a
+          >
+        </div>
+        <div
+          class="order-boxes row g-0 d-flex justify-content-center align-items-md-center gap-5"
+        >
+          <div class="order-box col-md-3 text-center d-flex flex-column gap-2">
+            <img
+              src="images/lan1.png"
+              class="img-fluid w-75 mx-auto my-3"
+              alt=""
+            />
+            <h3 class="text-capitalize text-white">Fiery Eggplant Delight</h3>
+            <p class="text-white-50">
+              Indulge in the explosive heat of our Fiery Eggplant Delight, where
+              eggplant meets a symphony of bold spices.
+            </p>
+            <span class="fs-5 fw-bold">$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize px-2 py-2 text-white border m-1"
+              >add to cart</a
+            >
+          </div>
+          <div class="order-box col-md-3 text-center d-flex flex-column gap-2">
+            <img
+              src="images/lan2.png"
+              class="img-fluid w-75 mx-auto my-3"
+              alt=""
+            />
+            <h3 class="text-capitalize text-white">spicy seafood symphony</h3>
+            <p class="text-white-50">
+              Savor the symphony of flavors in our Spicy Seafood dish, featuring
+              fresh fish and vibrant vegetables
+            </p>
+            <span class="fs-5 fw-bold">$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize px-2 py-2 text-white border m-1"
+              >add to cart</a
+            >
+          </div>
+          <div class="order-box col-md-3 text-center d-flex flex-column gap-2">
+            <img
+              src="images/lan3.png"
+              class="img-fluid w-75 mx-auto my-3"
+              alt=""
+            />
+            <h3 class="text-capitalize text-white">Zesty Lentil Fusion Bowl</h3>
+            <p class="text-white-50">
+              Embark on a culinary journey with our Zesty Lentil Fusion Bowl,
+              where lentils mingle with vegetables
+            </p>
+            <span class="fs-5 fw-bold">$2.90</span>
+            <a
+              href="#"
+              class="main-link-s text-decoration-none text-capitalize px-2 py-2 text-white border m-1"
+              >add to cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer py-5 bg-black">
+      <div
+        class="container px-2 row g-0 mx-auto d-flex justify-content-between align-items-start py-5"
+      >
+        <div class="f-about-us col-lg-3">
+          <h3 class="text-capitalize text-white mb-3 mt-5 fs-4">about us</h3>
+          <p class="text-white-50">
+            Welcome to <span class="text-capitalize fw-bold">spicy food</span> ,
+            where passion meets palate. Learn more about our journey, commitment
+            to quality, and the heart behind every dish on our 'About Us' page.
+          </p>
+          <div class="icons">
+            <a href="#" class="text-decoration-none">
+              <i
+                class="fa-brands fa-x-twitter fs-4 bg-dark text-white-50 rounded-circle p-2 twitter"
+              ></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i
+                class="fa-brands fa-facebook-f ms-2 fs-4 bg-dark text-white-50 rounded-circle p-2 facebook"
+              ></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i
+                class="fa-brands fa-instagram ms-2 fs-4 bg-dark text-white-50 rounded-circle p-2 instagram"
+              ></i>
+            </a>
+          </div>
+        </div>
+        <div class="recent-blog col-lg-4">
+          <h3 class="text-capitalize text-white mb-3 mt-5 fs-4">recent blog</h3>
+          <div class="blog-box row g-0 mb-4">
+            <div class="col-2">
+              <img src="images/menu1.jpg" class="img-fluid w-75" alt="" />
+            </div>
+            <div class="col-10">
+              <p class="text-white-50">
+                Savor the goodness of vibrant, nutrient-packed meals
+              </p>
+              <div
+                class="d-flex gap-3 align-items-center text-white-50 blog-stats"
+              >
+                <div>
+                  <i class="fa-regular fa-calendar-days"></i>
+                  <span>Sept 15, 2018</span>
+                </div>
+                <div><i class="fa-regular fa-user"></i> <span>admin</span></div>
+                <div>
+                  <i class="fa-solid fa-comment-dots"></i>
+                  <span>19</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box row g-0">
+            <div class="col-2">
+              <img src="images/menu1.jpg" class="img-fluid w-75" alt="" />
+            </div>
+            <div class="col-10">
+              <p class="text-white-50">
+                Savor the goodness of vibrant, nutrient-packed meals
+              </p>
+              <div
+                class="d-flex gap-3 align-items-center text-white-50 blog-stats"
+              >
+                <div>
+                  <i class="fa-regular fa-calendar-days"></i>
+                  <span>Sept 15, 2018</span>
+                </div>
+                <div><i class="fa-regular fa-user"></i> <span>admin</span></div>
+                <div>
+                  <i class="fa-solid fa-comment-dots"></i>
+                  <span>19</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="f-services col-lg-1">
+          <h3 class="text-capitalize text-white mb-3 mt-5 fs-4">services</h3>
+          <a
+            href="#"
+            class="text-decoration-none text-capitalize text-white d-inline-block mb-3 ms-3 ml-md-0"
+            >cooked</a
+          >
+          <a
+            href="#"
+            class="text-decoration-none text-capitalize text-white d-inline-block mb-3 ms-3 ml-md-0"
+            >deliver</a
+          >
+          <a
+            href="#"
+            class="text-decoration-none text-capitalize text-white d-inline-block mb-3 ms-3 ml-md-0"
+            >quality food</a
+          >
+          <a
+            href="#"
+            class="text-decoration-none text-capitalize text-white d-inline-block mb-3 ms-3 ml-md-0"
+            >mixed</a
+          >
+        </div>
+        <div class="f-questions col-lg-3">
+          <h3 class="text-capitalize text-white mb-3 mt-5 fs-4">
+            have a questions
+          </h3>
+          <div class="d-flex gap-2 text-white-50 align-items-center mb-4">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="mb-0">203 Fake St. Ocean View, California, USA</p>
+          </div>
+          <div class="d-flex gap-2 text-white-50 align-items-center mb-4">
+            <i class="fa-solid fa-phone-volume"></i>
+            <p class="mb-0">+1 111 1111 111</p>
+          </div>
+          <div class="d-flex gap-2 text-white-50 align-items-center mb-4">
+            <i class="fa-regular fa-envelope"></i>
+            <p class="mb-0">info@domain.com</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white-50 text-capitalize text-center">
+          This template is made with &hearts; by
+          <span class="text-uppercase">safouane meniaoui</span>
+        </p>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/master.js"></script>
+  </body>
+</html>
